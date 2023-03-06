@@ -24,11 +24,13 @@ FastAPI와 streamlit을 이용한 모델 온라인 서빙
     ```
 
 2-1. 애플리케이션 실행
-    ```
+
+    ```python
     python3 -m app
     ```
 
 2-2. Frontend와 server 동시 실행
+
     ```python
     make -j 2 run_app
     # or

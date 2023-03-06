@@ -1,4 +1,3 @@
-
 ```
 ├── README.md
 ├── requirements.txt
@@ -15,29 +14,28 @@ FastAPI와 streamlit을 이용한 모델 온라인 서빙
 
 1. 프로젝트의 의존성을 설치
     - Using Poetry
+    
     ```shell
     > poetry install
     ```
     - 나머지
+    
     ```shell
     > pip install -r requirements.txt
     ```
 
 2-1. 애플리케이션 실행
 
-    ```python
     python3 -m app
-    ```
 
 2-2. Frontend와 server 동시 실행
 
-    ```python
     make -j 2 run_app
     # or
+    
     python3 -m app
     # in other shell
     python3 -m streamlit run app/frontend.py
-    ```
 
 # Reference
 https://github.com/zzsza/Boostcamp-AI-Tech-Product-Serving/tree/main/part3/01-fastapi
